@@ -8,7 +8,7 @@ pipeline {
                 
                     sh '''kubectl apply -f deployment-service.yml
                     
-                    spleep 60
+                    sleep 60
                     '''
                     
                      
